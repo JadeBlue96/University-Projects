@@ -1,0 +1,11 @@
+﻿  texture.cpp
+  GL_Proj.cpp
+  shader.cpp
+  objloader.cpp
+  controls.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Konstantin\Documents\Visual Studio 2017\Projects\GL-Project\Debug\vc120.pdb'; linking object as if no debug info
+  GL-Project.vcxproj -> C:\Users\Konstantin\Documents\Visual Studio 2017\Projects\GL-Project\Debug\GL-Project.exe
+  GL-Project.vcxproj -> C:\Users\Konstantin\Documents\Visual Studio 2017\Projects\GL-Project\Debug\GL-Project.pdb (Partial PDB)

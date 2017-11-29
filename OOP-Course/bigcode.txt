@@ -1,0 +1,46 @@
+string getC() const {
+          if (available == water&&available==electricity&&available==phone&&available==path&&available==canal) return ("water|electricity|phone|path|canal");
+          else
+          {
+               if (available == water&&available == electricity&&available == phone&&available == path) return ("water|electricity|phone|path");
+               else if (available == water&&available == electricity&&available == phone&&available == canal) return ("water|electricity|phone|canal");
+               else if (available == water&&available == electricity&&available == path&&available == canal) return ("water|electricity|path|canal");
+               else if (available == water&&available == phone&&available == path&&available == canal) return ("water|phone|path|canal");
+               else if (available == electricity&&available == phone&&available == path&&available == canal) return ("electricity|phone|path|canal");
+               else
+               {
+                    if (available == water&&available == electricity&&available == phone) return ("water|electricity|phone");
+                    else if (available == water&&available == path&&available == phone) return ("water|path|phone");
+                    else if (available == water&&available == path&&available == electricity) return ("water|path|electricity");
+                    else if (available == electricity&&available == path&&available == phone) return ("electricity|path|phone");
+                    else if (available == electricity&&available == water&&available == canal) return ("electricity|water|canal");
+                    else if (available == phone&&available == water&&available == canal) return ("phone|water|canal");
+                    else if (available == electricity&&available == phone&&available == canal) return ("electricity|phone|canal");
+                    else if (available == path&&available == water&&available == canal) return ("path|water|canal");
+                    else if (available == electricity&&available == path&&available == canal) return ("electricity|path|canal");
+                    else if (available == phone&&available == path&&available == canal) return ("phone|path|canal");
+                    else
+                    {
+                         if (available == water&&available==electricity) return ("water|electricity");
+                         else if (available == water&&available == phone) return ("water|phone");
+                         else if (available == water&&available == path) return ("water|path");
+                         else if (available == water&&available == canal) return ("water|canal");
+                         else if (available == electricity&&available == phone) return ("phone|electricity");
+                         else if (available == electricity&&available == path) return ("path|electricity");
+                         else if (available == electricity&&available == canal) return ("canal|electricity");
+                         else if (available == phone&&available == path) return ("phone|path");
+                         else if (available == phone&&available == canal) return ("phone|canal");
+                         else if (available == path&&available == canal) return ("path|canal");
+                         else
+                         {
+                              if (available == water) return("water");
+                              else if (available == electricity) return ("electricity");
+                              else if (available == phone) return ("phone");
+                              else if (available == path) return ("path");
+                              else if (available == canal) return ("canal");
+                              else return("none");
+                         }
+                    }
+               }
+          } 
+     }

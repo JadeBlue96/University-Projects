@@ -1,0 +1,11 @@
+1 Studentska-1 Mario 120234.283 465.23 Sofia 2 6
+1 Tsar_Simeon-24 Kiril 126023.36 257.76 Sofia 3 7
+3 Tsar_Samuel-15 Ivan 326252.345 534.27 Burgas 2 water electricity
+2 Ivan_Shishman-30 Konstantin 356253.267 362.43 Varna 5 2 100
+2 Georgi_Rakovski-56 Radoslav 543623.16 472.23 Haskovo 4 3 230
+2 Aleksandrovska-1 Vladislav 623612.62 441.53 Karlovo 3 3 220
+1 Pavlovska-46 Radko 123366.23 162.63 Sofia 3 4
+3 Ivan_Asen-15 Elena 362163.26 321.63 Burgas 3 water phone canal
+3 Petur_Vulchev-94 Preslava 125793.23 263.43 Varna 4 phone path canal electricity
+3 Yan_Palah-29 Panaiot 346277.34 661.36 Obzor 1 water
+1 Petko_Voivoda-16 Petur 356262.63 466.23 Sofia 3 3

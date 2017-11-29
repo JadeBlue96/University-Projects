@@ -1,0 +1,4 @@
+1 Studentska-1 Mario_Zhekov 120234.283 465 Sofia 2 6
+1 Tsar_Simeon-24 Kiril_Aprilov 126023.36 257 Sofia 3 7
+3 Tsar_Samuel-15 Lirik_Bojinov 326252.345 534 Burgas 2 water electricity
+2 Ivan_Shishman-30 Konstantin_Georgiev 356253.267 362.43 Varna 5 2 100
