@@ -1,0 +1,19 @@
+﻿Build started 4/24/2017 9:37:26 PM.
+     1>Project "C:\Users\Konstantin\Documents\Visual Studio 2013\Projects\Snake_Course\Snake_Course\Snake_Course.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Snake_Course.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Snake_Course.cpp
+         Snake_Course.cpp
+     1>c:\users\konstantin\documents\visual studio 2013\projects\snake_course\snake_course\snake_course.cpp(249): warning C4101: 'hBmp' : unreferenced local variable
+     1>c:\users\konstantin\documents\visual studio 2013\projects\snake_course\snake_course\snake_course.cpp(247): warning C4101: 'hPen' : unreferenced local variable
+     1>c:\users\konstantin\documents\visual studio 2013\projects\snake_course\snake_course\snake_course.cpp(246): warning C4101: 'hcompdc' : unreferenced local variable
+     1>c:\users\konstantin\documents\visual studio 2013\projects\snake_course\snake_course\snake_course.cpp(248): warning C4101: 'hBr' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Konstantin\Documents\Visual Studio 2013\Projects\Snake_Course\Debug\Snake_Course.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Konstantin\Documents\Visual Studio 2013\Projects\Snake_Course\Debug\Snake_Course.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Konstantin\Documents\Visual Studio 2013\Projects\Snake_Course\Debug\Snake_Course.lib" /MACHINE:X86 Debug\Snake_Course.res
+         Debug\Snake_Course.obj
+         Debug\stdafx.obj
+         Snake_Course.vcxproj -> C:\Users\Konstantin\Documents\Visual Studio 2013\Projects\Snake_Course\Debug\Snake_Course.exe
+     1>Done Building Project "C:\Users\Konstantin\Documents\Visual Studio 2013\Projects\Snake_Course\Snake_Course\Snake_Course.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.28
